@@ -128,6 +128,7 @@ export default class AccordionItem extends Component {
         <AccordionItemTitle
           className={this.props.titleClassName}
           title={this.props.title}
+          expanded={this.props.expanded}
           onClick={this.props.disabled ? null : this.props.onClick}
           titleColor= {this.props.titleColor}
           uuid={this.uuid} />
