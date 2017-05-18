@@ -20,9 +20,10 @@ export default class Accordion extends Component {
     this.updateActiveItems(props);
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.updateActiveItems(nextProps);
-  }
+  // componentWillReceiveProps(nextProps) {
+  //   //commenting this function out below because it resets the state and closes the accordion on prop update
+  //   // this.updateActiveItems(nextProps);
+  // }
 
   updateActiveItems(props) {
     let activeItems = arrayify(props.activeItems);
