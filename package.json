@@ -1,6 +1,6 @@
 {
   "name": "@instrument/nike-react-sanfona",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "React accessible accordion component",
   "main": "./dist-modules/index.js",
   "scripts": {
